@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Quicksand:wght@300&family=Roboto:wght@500&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --primary-color: #fff;
+
+  --secondary-color: #3e4152;
+  /* --action-color: #f26430;confused */
+  --action-color: #ff715b;
+
+  --background-color: #171717;
+}
+
+html {
+  /* font-size: 50%; */
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+  align-items: baseline;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: var(--primary-color);
+}
+.nav-icons-div {
+  display: flex;
+  gap: 1.8rem;
+}
+.nav-icon-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+/* nav-logo */
+
+.logo-v {
+  /* font-size: 3.5rem; */
+  color: var(--action-color);
+}
+.logo-name {
+  font-family: "Comfortaa", cursive;
+
+  font-size: 2.5rem;
+  line-height: 1.8rem;
+  color: var(--secondary-color);
+  z-index: 3;
+}
+.foot-icon {
+  margin-left: 8.3rem;
+  padding-top: 0.4rem;
+  padding-right: 0.2rem;
+  opacity: 0.6;
+  color: var(--secondary-color);
+}
+.logo-div .fa-bars {
+  display: none;
+}
+.fa-shoe-prints {
+  color: var(--action-color);
+  font-size: 0.8rem;
+}
+.nav-text {
+  padding-right: 1rem;
+  color: var(--secondary-color);
+  transition: all 0.2s;
+}
+.nav-text:hover {
+  color: var(--action-color);
+}

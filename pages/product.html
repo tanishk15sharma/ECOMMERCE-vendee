@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product-page</title>
+    <link
+      rel="stylesheet"
+      href="https://furbish.netlify.app/style/components/component.css"
+    />
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-route">
+        <a href="#" class="nav-text">Home</a>
+        <a href="#" class="nav-text">Products</a>
+      </div>
+      <div class="logo-div">
+        <i class="fa-solid fa-bars"></i>
+        <p class="logo-name"><span class="logo-v">V</span>endee</p>
+        <!-- <i class="fa-solid fa-shoe-prints foot-icon"></i>
+        <i class="fa-solid fa-shoe-prints"></i> -->
+      </div>
+      <div class="nav-icons-div">
+        <div class="nav-icon-div">
+          <img src="./nav-img/search.svg" alt="search-icon" />
+          <span>Search</span>
+        </div>
+        <div class="nav-icon-div">
+          <img src="./nav-img/user-plus.svg" alt="user-icon" />
+          <span>Sign in</span>
+        </div>
+        <div class="nav-icon-div">
+          <img src="./nav-img/heart.svg" alt="wishlist-icon" />
+          <span>Wishlist</span>
+        </div>
+        <div class="nav-icon-div">
+          <img src="./nav-img/shopping-cart.svg" alt="cart-icon" />
+          <span>Cart</span>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="filter-container">
+        <div class="filter-nav">
+          <h3>Filter</h3>
+          <button class="clear-btn">Clear All</button>
+        </div>
+        <hr />
+        <ul>
+          <section class="filter-section">
+            <p class="filter-title">Price</p>
+            <div class="price-range">
+              <span>100</span>
+              <span>1000</span>
+            </div>
+            <input type="range" />
+          </section>
+          <hr />
+
+          <section class="filter-section">
+            <p class="filter-title">Category</p>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />Regular</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />Mens</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />Womens </label>
+            </li>
+          </section>
+          <hr />
+
+          <section class="filter-section">
+            <p class="filter-title">Brands</p>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />Roadster</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />Levis</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />HRX</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />Nike</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />Nautica</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="checkbox" />H & M</label>
+            </li>
+          </section>
+          <hr />
+
+          <section class="filter-section">
+            <p class="filter-title">Rating</p>
+            <li class="filter-list">
+              <label for=""> <input type="radio" />4 stars & above</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="radio" />3 stars & above</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="radio" />2 stars & above</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="radio" />1 stars & above</label>
+            </li>
+          </section>
+          <hr />
+
+          <section class="filter-section">
+            <p class="filter-title">Sort By</p>
+            <li class="filter-list">
+              <label for=""> <input type="radio" />Price- low to high</label>
+            </li>
+            <li class="filter-list">
+              <label for=""> <input type="radio" />Price- high to low</label>
+            </li>
+          </section>
+          <hr />
+        </ul>
+      </div>
+
+      <div class="product-wrapper">
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/HRX-Yellow-Printed-Round-Neck-T-Shirt--1.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              HRX <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 799</span>
+              <span>Rs. 999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/-Men-Green-Slim-Fit-Solid-Casual-Shirt-358156645-1.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              Levis <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 799</span>
+              <span>Rs. 999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/RoadsterLeather-Jacket1.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              H & M <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 799</span>
+              <span>Rs. 999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/Nautica-Men-Tshirts-1.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              Nautica <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 1299</span>
+              <span>Rs. 1999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/-Women-Kurta-Sets2-1.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              Nautica <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 799</span>
+              <span>Rs. 999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/women-kurti-nautrica.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              Nautica <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 799</span>
+              <span>Rs. 999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/womne-top-hrx.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              Nautica <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 799</span>
+              <span>Rs. 999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img-div">
+            <img
+              src="./product-img/nike-sBelleFilleWomen.webp"
+              alt="tshirt"
+              class="product-img"
+            />
+          </div>
+          <div class="product-detail">
+            <div class="product-brand">
+              Nautica <i class="fa-solid fa-heart"></i>
+            </div>
+            <p class="product-info">Yellow Printed Round Neck</p>
+            <div class="product-price">
+              <span>Rs. 799</span>
+              <span>Rs. 999</span>
+              <span>(40% OFF)</span>
+            </div>
+            <div class="product-size-div">
+              <div class="product-size-title">Add size</div>
+              <div class="product-size">
+                <span>XS</span>
+                <span>S</span>
+                <span>M</span>
+                <span>L</span>
+                <span>XL</span>
+              </div>
+            </div>
+          </div>
+          <button class="product-btn">ADD TO CART</button>
+        </div>
+      </div>
+    </main>
+    <button class="btn-filter">
+      <i class="fa-solid fa-filter"></i> FILTER
+    </button>
+
+    <script>
+      // hamburger script
+      const toggleSlideBtn = document.querySelector(".fa-bars");
+      const navRoute = document.querySelector(".nav-route");
+      toggleSlideBtn.addEventListener("click", () => {
+        navRoute.classList.toggle("show");
+      });
+
+      //   filter-btn script
+      const toggleFilterBtn = document.querySelector(".btn-filter");
+      const filterContainer = document.querySelector(".filter-container");
+      toggleFilterBtn.addEventListener("click", () => {
+        filterContainer.classList.toggle("show-filter");
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/e141623122.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -29,6 +29,9 @@ img {
   max-inline-size: 100%;
   block-size: auto;
 }
+a {
+  color: #000;
+}
 
 /* nav */
 nav {

@@ -17,7 +17,7 @@ html {
 .login-container input:nth-child(2),
 input:nth-child(3) {
   padding: 0.5rem 1rem;
-  margin: 1rem;
+  margin: 0.8rem 0;
   width: 100%;
 }
 
@@ -40,10 +40,10 @@ main {
   align-items: center;
 }
 .login-options {
-  /* border: 1px solid blue; */
   display: flex;
   gap: 2rem;
   align-items: baseline;
+  margin-top: 1rem;
 }
 .login-options a {
   color: #0284c7;
@@ -52,7 +52,7 @@ main {
   padding: 0.5rem 2rem;
   background-color: var(--action-color);
   border: none;
-  margin: 1rem;
+  margin: 0.5rem;
   color: var(--primary-color);
   cursor: pointer;
   font-weight: 600;

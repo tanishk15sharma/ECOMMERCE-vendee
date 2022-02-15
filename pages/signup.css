@@ -18,7 +18,7 @@ html {
 input:nth-child(3),
 input:nth-child(4) {
   padding: 0.5rem 1rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0;
   width: 100%;
 }
 
@@ -54,7 +54,8 @@ main {
   padding: 0.5rem 2rem;
   background-color: var(--action-color);
   border: none;
-  margin: 1rem;
+  margin: 0.5rem;
+
   color: var(--primary-color);
   cursor: pointer;
   font-weight: 600;

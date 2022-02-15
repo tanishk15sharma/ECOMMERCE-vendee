@@ -15,9 +15,10 @@ html {
 }
 
 .login-container input:nth-child(2),
-input:nth-child(3) {
+input:nth-child(3),
+input:nth-child(4) {
   padding: 0.5rem 1rem;
-  margin: 1rem;
+  margin: 0.5rem;
   width: 100%;
 }
 
@@ -39,11 +40,12 @@ main {
   justify-content: center;
   align-items: center;
 }
-.login-options {
+.signup-options {
   /* border: 1px solid blue; */
   display: flex;
   gap: 2rem;
-  align-items: baseline;
+  margin-top: 1rem;
+  /* border: 1px solid red; */
 }
 .login-options a {
   color: #0284c7;
@@ -59,10 +61,10 @@ main {
   transition: all 0.3s ease;
   width: 100%;
 }
+
 .login-btn:hover {
   background-color: #f04d34;
 }
-
 .login-route {
   color: black;
 }

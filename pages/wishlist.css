@@ -1,9 +1,9 @@
 .wishlist-container {
-  display: flex;
-  flex-wrap: wrap;
-
-  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 4rem;
 }
 
 .product-img-div {
